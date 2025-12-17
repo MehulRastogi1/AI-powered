@@ -6,4 +6,4 @@ textblob
 scikit-learn
 requests
 numpy
-opencv-python
+opencv-python-headless
