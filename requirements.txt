@@ -1,0 +1,10 @@
+streamlit
+joblib
+pandas
+plotly
+textblob
+scikit-learn
+requests
+numpy
+opencv-python
+pillow
