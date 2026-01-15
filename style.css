@@ -1,0 +1,133 @@
+/* =============================================
+   GLOBAL FONT & RESET
+================================================ */
+html, body, [class*="css"] {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* =============================================
+   MAIN TITLES
+================================================ */
+.main-title {
+    color: #0A66C2;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.sub {
+    color: #5A6A7A;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #0A66C2;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* =============================================
+   INPUT BOXES
+================================================ */
+.stTextInput > div > div > input {
+    border-radius: 8px !important;
+    padding: 12px 14px !important;
+    font-size: 15px !important;
+    border: 1px solid rgba(10,102,194,0.18) !important;
+    background: rgba(10,102,194,0.03) !important;
+    transition: 0.2s ease;
+}
+.stTextInput > div > div > input:focus {
+    border-color: rgba(10,102,194,0.45) !important;
+    box-shadow: 0 0 0 4px rgba(10,102,194,0.08) !important;
+}
+
+/* =============================================
+   BUTTONS
+================================================ */
+.stButton>button {
+    background: linear-gradient(135deg, #0A66C2, #5DA9FF);
+    color: white !important;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 16px;
+    border: none !important;
+}
+.stButton>button:hover {
+    background: linear-gradient(135deg, #004e9c, #2F7DD1);
+    color: #fff;
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+}
+
+/* =============================================
+   ALERT BOXES
+================================================ */
+.stAlert {
+    border-radius: 10px !important;
+    padding: 12px 14px !important;
+    font-size: 15px !important;
+}
+
+/* =============================================
+   CHART CONTAINERS
+================================================ */
+.chart-box {
+    background: linear-gradient(145deg, #ffffff, #f3f6ff);
+    padding: 18px 22px;
+    border-radius: 14px;
+    margin-top: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
+    border: 1px solid rgba(50,100,255,0.10);
+    transition: all .3s ease;
+    position: relative;
+}
+.chart-box:hover {
+    transform: translateY(-3px);
+}
+
+/* =============================================
+   SIDEBAR (MEGA)
+================================================ */
+section[data-testid="stSidebar"] {
+    background-color: #F2F6FF;
+    padding: 15px;
+}
+
+.sidebar-main-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0A66C2;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.sidebar-subtitle {
+    font-size: 15px;
+    color: #4B5C6B;
+    margin-bottom: 15px;
+}
+
+.sidebar-footer {
+    text-align: center;
+    font-size: 12px;
+    color: #7A8A9A;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
+/* Radio & Selectbox styling */
+.stRadio > div {
+    background: rgba(10,102,194,0.07);
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+/* SelectBox */
+.stSelectbox > div > div {
+    border-radius: 8px !important;
+    border: 1px solid rgba(10,102,194,0.20) !important;
+    background: white !important;
+}
